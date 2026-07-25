@@ -30,6 +30,21 @@ public class FindMaxMinArray {
 
 
 
+        // Find Second Highest Array 
+        int[] num = {34, 54, 65, 33, 41, 67};
+
+        ArrayList<Integer> nums = new ArrayList<>();
+
+        for(int values : num) {
+            nums.add(values);
+        }
+
+        Collections.sort(nums, Collections.reverseOrder());
+
+        System.out.println("Second Highest Number in Array : " + nums.get(1));
+
+
+
 
 
 

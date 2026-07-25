@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class FindFactorials {
     public static void main(String[] args) {
         
-        System.out.println("Find Factorial Number of N !");
+        System.out.println("Find the factorial of a number.");
 
         System.out.println("Enter Number To Find Factorial : ");
 

@@ -1,4 +1,4 @@
-public class ArraysPrograms {
+public class ArraysPractices {
     public static void main(String[] args) {
         
         String[] fruits = {"Mango", "Banana", "Apples", "PineApple"};

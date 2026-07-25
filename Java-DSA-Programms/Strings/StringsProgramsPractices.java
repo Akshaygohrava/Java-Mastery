@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class StringsPrograms {
+public class StringsProgramsPractices {
     public static void main(String[] args) {
 
         String name = "Akshay";
