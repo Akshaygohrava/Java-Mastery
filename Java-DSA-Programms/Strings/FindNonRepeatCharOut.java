@@ -3,7 +3,7 @@ public class FindNonRepeatCharOut {
         System.out.println("Hello, Java DSA !");
         System.out.println("Find Non Repeating Char Out !");
         
-        String text = "aabbccddee";
+        String text = "aabbccdde";
 
         for(int i =0; i < text.length();i++) {
             char c = text.charAt(i);

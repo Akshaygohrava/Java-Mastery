@@ -10,7 +10,7 @@ public class FindFactorials {
         Scanner sc = new Scanner(System.in);
 
         int input = sc.nextInt();
-        
+                            
         int factorial = 1;
         for(int i = input; i >= 1; i--) {
             factorial = factorial * i;

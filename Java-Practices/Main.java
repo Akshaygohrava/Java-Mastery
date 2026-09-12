@@ -24,5 +24,19 @@ public class Main {
        System.out.println("Unique Arrays : " + nums);
        System.out.println("Length Arrays : " + nums.size());
 
+
+
+       System.out.println("Testing String :");
+
+
+    
+
+
+     
+
+
+
+
+
     }
 }
