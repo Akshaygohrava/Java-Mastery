@@ -10,27 +10,14 @@ public class Main {
 
         int[] num = {45, 54, 67, 45, 66, 54, 67, 32};
 
-        for(int a : num) {
-             System.out.print(a);
+        int max = num[0];
+
+        for(int i = 0; i < num.length;i++) {
+            if (num[i] > max) {
+                max = num[i];
+            }
         }
-       System.out.println("Length Arrays : " + num.length);
-
-        HashSet<Integer> nums = new HashSet<Integer>();
-
-        for(int a : num) {
-            //   System.out.println(a);
-            nums.add(a);
-        }
-       System.out.println("Unique Arrays : " + nums);
-       System.out.println("Length Arrays : " + nums.size());
-
-
-
-       System.out.println("Testing String :");
-
-
-    
-
+        System.out.println(max);
 
      
 

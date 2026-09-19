@@ -8,7 +8,7 @@ public class FindLengthOfArray {
 
         HashSet<Integer> uniqueval = new HashSet<>();
         for(int num : marks) {
-        uniqueval.add(num);
+           uniqueval.add(num);
         }
 
         System.out.println("Original Length : " + marks.length);

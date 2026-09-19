@@ -1,3 +1,6 @@
+import java.util.Collections;
+import java.util.LinkedList;
+
 public class ArraysPractices {
     public static void main(String[] args) {
         
@@ -9,17 +12,16 @@ public class ArraysPractices {
 
         int[] marks = {45, 36, 55, 42, 67, 33, 51};
 
-        int highestarr = marks[0];
 
-        for(int i = 0; i < marks.length; i++) {
-            System.out.println(highestarr);
-            if (marks[i] > highestarr) {
-                highestarr = marks[i];
-            }
+        LinkedList<Integer> age = new LinkedList<>();
 
-        }
+        age.add(32);
+        age.add(45);
+        age.add(33);
+        age.add(44);
+        age.add(31);
 
-        System.out.println("Highest Array : " + highestarr);
+        System.out.println(age.reversed());
 
 
 

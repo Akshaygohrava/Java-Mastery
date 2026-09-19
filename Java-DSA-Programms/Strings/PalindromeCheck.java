@@ -3,6 +3,7 @@ public class PalindromeCheck {
     public static void main(String[] args) {
       
         String text = "MOM";
+        
 
         System.out.println(text);
 

@@ -5,16 +5,34 @@ public class NumberProgramsPractices {
         System.out.println("Number Programms Practing !");
 
 
-        // Fibonacci Practising ....
 
-        int a = 0;
-        int b = 1;
+        // Prime Number
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Enter Number To Check if number is prime : ");
+        int num = sc.nextInt();
 
+        if (isPrime(num)) {
+            System.out.println("The Number is Prime !");
+        } else {
+            System.out.println("The Number is Not Prime !");
+        }
+    
 
+       
+    }
 
-        
+    public static boolean isPrime(int num) {
+        if (num <= 1) {
+            return false;
+        }
+
+        for(int i = 2; i < num; i++) {
+            if (num % i == 0) {
+                return false;
+            }
+        }
+        return true;
     }
 }
