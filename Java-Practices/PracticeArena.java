@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class Main {
+public class PracticeArena {
     public static void main(String args[]) {
     
         // To Mastering Java, Keep Practising New Programs, new Projects ,
@@ -10,16 +10,14 @@ public class Main {
 
         int[] num = {45, 54, 67, 45, 66, 54, 67, 32};
 
-        int max = num[0];
+        String name = "akshay";
 
-        for(int i = 0; i < num.length;i++) {
-            if (num[i] > max) {
-                max = num[i];
-            }
+        String rev = "";
+
+        for(int i = name.length() - 1; i >= 0;i--) {
+            rev += name.charAt(i);
         }
-        System.out.println(max);
-
-     
+        System.out.println(rev);
 
 
 

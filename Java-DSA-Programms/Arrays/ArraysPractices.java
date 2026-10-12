@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedList;
 
@@ -12,20 +14,14 @@ public class ArraysPractices {
 
         int[] marks = {45, 36, 55, 42, 67, 33, 51};
 
+        Arrays.sort(fruits);
 
-        LinkedList<Integer> age = new LinkedList<>();
+        for (String i : fruits) {
+            System.out.print(i+" ");
+        }
+        
 
-        age.add(32);
-        age.add(45);
-        age.add(33);
-        age.add(44);
-        age.add(31);
-
-        System.out.println(age.reversed());
-
-
-
-
+       
 
 
 

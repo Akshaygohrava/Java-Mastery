@@ -43,14 +43,6 @@ public class FindMaxMinArray {
 
         System.out.println("Second Highest Number in Array : " + nums.get(1));
 
-
-
-
-
-
-
-
-
-
+        
     }
 }
