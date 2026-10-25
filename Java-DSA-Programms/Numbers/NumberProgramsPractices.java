@@ -4,35 +4,39 @@ public class NumberProgramsPractices {
     public static void main(String[] args) {
         System.out.println("Number Programms Practing !");
 
+        // I hHave to Remember the logic Behind Every pProblem , Not Whole Code !
+        // e.g num % i == 0 for prime number check , Where num = given input, and i = iterate from 2 - given input = num 
+
 
 
         // Prime Number
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter Number To Check if number is prime : ");
-        int num = sc.nextInt();
+        int fact = sc.nextInt();
 
-        if (isPrime(num)) {
-            System.out.println("The Number is Prime !");
+        if (isprime(fact)) {
+            System.out.println("The Number " + fact + " is a Prime Number !");
         } else {
-            System.out.println("The Number is Not Prime !");
+            System.out.println("The Number " + fact + " is Not a Prime Number !");
         }
     
 
        
+
     }
 
-    public static boolean isPrime(int num) {
-        if (num <= 1) {
-            return false;
-        }
 
-        for(int i = 2; i < num; i++) {
-            if (num % i == 0) {
-                return false;
+    public static boolean isprime(int fact) {
+            if (fact <= 1) {
+                return  false;
             }
-        }
-        return true;
-    }
+
+            for(int i = 2; i < fact; i++) {
+                if (fact % i == 0) {
+                    return false;
+                }
+            }
+            return true;
+       }
 }
