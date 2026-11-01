@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.Stack;
+import java.util.Vector;
 
 public class Lists {
     public static void main(String[] args) {
@@ -25,9 +27,6 @@ public class Lists {
 
         System.out.println(marks);
 
-        for (int i = 0; i < marks.length(); i++) {
-            
-        }
 
 
         // Linked List
@@ -45,6 +44,19 @@ public class Lists {
         name.add("Arib");
 
         System.out.println(name);
+
+        // Stack 
+
+        Stack<Integer> age = new Stack<>();
+
+
+
+
+        // Vector
+
+        Vector<Integer> level = new Vector<>();
+
+        
 
         
     }
