@@ -3,7 +3,7 @@ public class CoreJava2 {
     // Access Modifiers
     int a = 1;       // default → same package
     public int b = 2;          // everywhere
-    private int c = 3;    // only inside Demo
+    private int c = 3;    // only inside CoreJava2
     protected int d = 4;       // package + subclasses
 
     // Non Access Modifiers
@@ -11,11 +11,31 @@ public class CoreJava2 {
     String name = "Akshay Gohrava"; // Non-static
     static int age = 25;  // static
 
-    static String test() {
-
+    static void staticmethod() {
+           System.out.println("This is a static method");
+    }
+    void nonstaticmethod() {
+        System.out.println("This is Non static method");
     }
 
+
     final String address = "Wadala";
+
+    final void finalmethod() {
+        System.out.println("This is FInal Method , Which cannot be overide !");
+    }
+    class test extends CoreJava2 {
+        @Override 
+        void  nonstaticmethod() {
+        System.out.println("This is Overiding the method !");
+          }
+        
+        //   @Override 
+        //   void finalmethod() {       // giving error , cannot overide final method 
+
+        //   }
+    }
+
 
 
     public static void main(String[] args) {
@@ -37,10 +57,14 @@ public class CoreJava2 {
 
         CoreJava2 obj = new CoreJava2();
 
-        System.out.println(obj.name); // need to create object , to access non static
-        System.out.println(age);  // direct access , static variable and methods 
+        System.out.println(obj.name); // non-staic variable,  need to create object , to access non static
+        System.out.println(age);  // static variable, direct access , static variable and methods 
 
+        staticmethod();   // static method
 
+        obj.nonstaticmethod();  // non-static method
+
+        System.out.println(obj.a + obj.b + obj.c + obj.d);
         
     }
 }
