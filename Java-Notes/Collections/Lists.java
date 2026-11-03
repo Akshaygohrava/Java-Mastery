@@ -8,9 +8,9 @@ public class Lists {
     public static void main(String[] args) {
 
         System.out.println("Java Collections");
-        System.out.println("Lists In Java !");
+        System.out.println("Lists In Collection !");
 
-        // ArrayList - Best For Frequent random access, iteration   - 
+        // ArrayList - Best For Frequent fast read, index access, random access, iteration
         // allow duplicates, insertation order maintain , allow multple null keys
         ArrayList<Integer> marks = new ArrayList<Integer>();
 
@@ -39,6 +39,11 @@ public class Lists {
 
         System.out.println("ArrayList : " + marks);
 
+        // Iterate Lists
+        for(int value : marks) {
+            System.out.print(value);
+        }
+
 
 
         // Linked List - is best for Insert and Remove via iterate 
@@ -65,7 +70,7 @@ public class Lists {
         // Both , Maintain Insertion order. Dublicate allow, Null Value allow, Not thread safe
       
 
-        // Stack - Extend Vector - both are thread safe , allow duplicate , null values
+        // Stack - Extend Vector - LIFO Behaviour - both are thread safe , allow duplicate , null values  
 
         Stack<Integer> age = new Stack<>();
 
