@@ -28,6 +28,10 @@ public class CoreJava3 {
 
         System.out.println(a.hashCode());  // 98262 -  Return INT values - values divides by 16 - return value begin search 
 
+
+
+        System.out.println("Differce Between String, StringBuilder, StringBufferr");
+
         
 
 
