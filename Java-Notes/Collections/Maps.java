@@ -1,6 +1,8 @@
 import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.LinkedHashMap;
 import java.util.TreeMap;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class Maps {
     public static void main(String[] args) {
@@ -104,16 +106,6 @@ public class Maps {
 
 
 
-        //  ConcurrentHashMap = Best for Multi-threaded applications needing high-performance concurrent access.
-
-
-
-
-
-
-
-
-        // HashTable - Best for Legacy code only — prefer ConcurrentHashMap for concurrent use.
 
 
         //   HashMap        LinkedHashMap         TreeMap         ConcurrentHashMap        HashTable
