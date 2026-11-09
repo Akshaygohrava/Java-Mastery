@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Stack;
 import java.util.Vector;
 
@@ -12,7 +13,9 @@ public class Lists {
 
         // ArrayList - Best For Frequent fast read, index access, random access, iteration
         // allow duplicates, insertation order maintain , allow multple null keys
-        ArrayList<Integer> marks = new ArrayList<Integer>();
+        ArrayList<Integer> marks = new ArrayList<Integer>();   // Mutable - can modify , add/remove
+
+        List<String> fruits =  List.of("Banana", "Oranges", "Apples", "Mangoes"); // Immutable - cannot modify - ways to create Lists 
 
         marks.add(37);
         marks.add(54);
@@ -68,6 +71,10 @@ public class Lists {
         // Resizeable array                Doubly linkedlist
         // Best for faster random access   faster insert/deletion
         // Both , Maintain Insertion order. Dublicate allow, Null Value allow, Not thread safe
+
+        // Stack                           Vector
+
+        // 
       
 
         // Stack - Extend Vector - LIFO Behaviour - both are thread safe , allow duplicate , null values  
