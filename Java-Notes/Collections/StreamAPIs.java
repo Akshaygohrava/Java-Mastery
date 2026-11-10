@@ -1,5 +1,6 @@
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class StreamAPIs {
     public static void main(String[] args) {
@@ -67,7 +68,27 @@ public class StreamAPIs {
         System.out.println("Collection ReverseSorted Marks : " + reverseSorted);
 
 
-        
+        // Limit and Skip 
+
+        List<Integer> num = List.of(1, 2, 3, 4, 5, 6, 7, 8);
+
+        List<Integer> numlimit = num.stream().limit(3).toList();
+
+        System.out.println("Array with limited value : " + numlimit);
+
+        List<Integer>  skipnum = num.stream().skip(3).toList();
+
+        System.out.println("Number of Element to skip : " + skipnum);
+
+        // For Each
+
+        List.of(1, 2, 3, 4).stream().forEach(System.out::println);
+
+        List.of(23, 45, 67, 89, 34, 22, 67).stream().filter(x -> x < 67).count();
+
+        // MIN - MAX 
+
+        List<Integer> age = List.of(56, 76, 32, 44, 89, 90, 42);
 
 
         
