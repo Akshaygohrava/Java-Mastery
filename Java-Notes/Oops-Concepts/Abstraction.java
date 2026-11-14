@@ -23,7 +23,8 @@ public class Abstraction {
         //    single inheritance                    multiple inheritance
         //    concert + abstract method             default, static ,private, abstract
         //     all modifiers                        public , private
-
+        //    partial adstraction                   100% / pure abstarction prior java8 - support only abstactmethod
+        //                                           After in java 8, default and static are in Interface
 
     }
 }
@@ -47,6 +48,24 @@ abstract class Animal {
     Animal() {
         System.out.println("Hello, I m Abstact class Constructor");
     }
+
+    // 1. Abstract instance method
+    //abstract void sound();
+
+    // 2. Concrete instance method
+    //void eat() { System.out.println("Eating..."); }
+
+    // 3. Abstract method with parameters
+    //abstract int legs(int count);
+
+    // 4. final method — cannot be overridden
+    // final void breathe() { System.out.println("Breathing..."); }
+
+    // 5. static method — belongs to class, not overridden
+    //static void info() { System.out.println("Animals exist"); }
+
+    // 6. protected abstract method — forces subclass implementation
+    //protected abstract void sleep();
 }
 class Dog extends Animal {
     double radius;
@@ -61,6 +80,7 @@ class Dog extends Animal {
         System.out.println("Hello, I M Abstarct Method !");
         System.out.println("Dog barks");
     }
+
 
     String name = "Dogesh Bhai";
 }

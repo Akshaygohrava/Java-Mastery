@@ -43,6 +43,14 @@ public class FindMaxMinArray {
 
         System.out.println("Second Highest Number in Array : " + nums.get(1));
 
+        // Find High and Low Without Using COllections 
+
+        int[] age = {45, 76, 89, 21, 22, 98, 11};
+
+        //
+
+
+
         
     }
 }

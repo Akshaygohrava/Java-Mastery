@@ -6,8 +6,9 @@ public class Notes {
 
         // Revise Topic LineWise 
         // Core Java - Oops Concepts - Collection - Multithreading - Exeception Handling  - JavaFeautures 
+        // Advance-Java: Memory-Management - Design-Patterns - Solid-Principles
 
-
+        // After Complting Notes , I just have to revise , and do modify All folders , to keep Revisions
 
     }
 }

@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 
 public class PracticeArena {
     public static void main(String args[]) {
@@ -12,22 +14,10 @@ public class PracticeArena {
 
         String name = "akshay";
 
+       
+
    
 
-
-
-
-
-        String non = "aabbccdee";
-
-        for(int i = 0; i < non.length(); i++) {
-    
-            char c = non.charAt(i);
-            System.out.println(c);
-            if (non.lastIndexOf(c) == non.indexOf(c)) {
-                System.out.println("Non repeating char is : " + c);
-            }
-        }
 
 
 
