@@ -10,9 +10,16 @@ public class PracticeArena {
        
         System.out.println("This is Java Practice Arena !");
 
-        int[] num = {45, 54, 67, 45, 66, 54, 67, 32};
+        int[] num = {88, 54, 67, 45, 66, 54, 67, 32};
 
         String name = "akshay";
+
+        String non = "aabbccddeefggh";
+
+        for(int i = non.length() - 1;i > 0;i--) {
+            System.out.print(non.charAt(i));
+        }
+
 
        
 

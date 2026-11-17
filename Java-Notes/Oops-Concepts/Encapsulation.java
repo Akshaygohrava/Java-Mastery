@@ -7,6 +7,7 @@ public class Encapsulation {
         // Encapsulation = bundling data (fields) and methods that operate on that data into a single unit (class),
         // and restricting direct access to the internals. It's the "data hiding" pillar of OOP.
         // Encapsulation is Data-hiding + Data binding + Give Control Access through getter and setters like read and write access
+        // Wrapping data and methods in one unit and restricting direct access using private + public getters/setters. Protects invariants and enables validation.
         
         // Creating BankAccount Class
         BankAccount bank = new BankAccount();

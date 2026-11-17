@@ -5,7 +5,7 @@ public class Polymorphism {
 
         // Polymprphim Is One Object , Many Forms
         // Polymorphism = "many forms" — one interface, many implementations.
-        // Two Types of Polymorphism --Compile-time Polymorphism and Runtime Polymorphism
+        // Two Types of Polymorphism --Compile-time (static) Polymorphism and Runtime (dynamic) Polymorphism
         // Compile-time is Method Overloading - Same Method Name, One Or Many different types of parameter
         // Run-time is Method Overriding  - Same Method Name, Same Parameter , Different Implementation of Sub-Classes
 
