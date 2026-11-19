@@ -13,5 +13,8 @@ public class MemoryManagement {
         System.out.println(a == c);           // true  → same String pool
         System.out.println(a.equals(c));      // true  → same content
 
+        String s = "Akshay";              // 1 object (pool) — or 0 new if already exists
+        String t = new String("Akshay");  // 2 objects (1 pool + 1 heap) — or 1 new heap if literal already pooled
+
     }
 }

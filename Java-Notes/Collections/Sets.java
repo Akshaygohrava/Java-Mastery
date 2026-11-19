@@ -30,7 +30,7 @@ public class Sets {
      //  score.clear();
         score.addAll(score);
          score.toArray(); // Convert to Normal Array 
-         System.out.println(score.length);
+         System.out.println(score);
 
 
 

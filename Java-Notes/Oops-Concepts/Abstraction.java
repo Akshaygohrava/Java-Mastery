@@ -32,9 +32,9 @@ public class Abstraction {
 abstract class Animal {
 
     protected String color;          // accessible in subclasses
-    private int version = 1;         // hidden
+    private int version = 1;         // hidden , only access in class 
     static int totalShapes = 0;      // shared
-    final String TYPE = "dog";     // constant
+    final String TYPE = "dog";     // constant - value cannot change 
 
     String name;  // instance variables
 
