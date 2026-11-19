@@ -10,5 +10,10 @@ public class Notes {
 
         // After Complting Notes , I just have to revise , and do modify All folders , to keep Revisions
 
+        // After Revision the Core Java , then JDBC , then Spring Boot 
+        // Make One - One project of it , in Java Create Bank-System , and JDBC - Gym - Management , 
+        // And In SpringBoot , Create REST Apis CRUDS and Connect To SQL, PostgreSQL Databases 
+        // And Make SQL Revisions .... 
+
     }
 }

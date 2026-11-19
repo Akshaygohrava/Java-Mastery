@@ -6,6 +6,8 @@ public class MyRunnable {
         // Thread t = new Thread(new MyTask(), "T1 Worker");
         // t.start();
 
+        new Thread(() -> System.out.println("Hello , Lambda Expression ...")).start();
+
         MyTask task = new MyTask();  // task = just the job 
         
         Thread t = new Thread(task);   // wrap it in a thread
@@ -38,9 +40,8 @@ class MyTask implements Runnable {
 
 // Differece Between Thread Class and Runnable Interface 
 //        Thread Class                    Runnable Interface 
+//      single inherit                     multiple inherit 
 //        extends Thread                    implements runnable
 //     The thread itself (the worker)          The task (the work to do)
-//      single inherit                     multiple inherit 
-
 // Thread = the worker.
 // Runnable = the job the worker does.
